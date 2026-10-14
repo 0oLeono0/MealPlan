@@ -1,0 +1,191 @@
+[
+  {
+    "name": "postcss",
+    "version": "8.5.29",
+    "engines": {
+      "node": "^10 || ^12 || >=14"
+    },
+    "peers": null,
+    "deprecated": null
+  },
+  {
+    "name": "vitest",
+    "version": "5.0.4",
+    "engines": {
+      "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+    },
+    "peers": {
+      "vite": "^6.4.0 || ^7.0.0 || ^8.0.0",
+      "jsdom": "*",
+      "happy-dom": "*",
+      "@vitest/ui": "5.0.4",
+      "@types/node": "^22.0.0 || >=24.0.0",
+      "@edge-runtime/vm": "*",
+      "@opentelemetry/api": "^1.9.0",
+      "@vitest/coverage-v8": "5.0.4",
+      "@vitest/browser-preview": "5.0.4",
+      "@vitest/coverage-istanbul": "5.0.4",
+      "@vitest/browser-playwright": "5.0.4",
+      "@vitest/browser-webdriverio": "^5.0.0-beta.5 || >=5.0.0"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "@playwright/test",
+    "version": "1.64.0",
+    "engines": {
+      "node": ">=20"
+    },
+    "peers": null,
+    "deprecated": null
+  },
+  {
+    "name": "eslint",
+    "version": "10.12.0",
+    "engines": {
+      "node": "^20.19.0 || ^22.13.0 || >=24"
+    },
+    "peers": {
+      "jiti": "*"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "react",
+    "version": "19.3.0",
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "peers": null,
+    "deprecated": null
+  },
+  {
+    "name": "eslint-plugin-react-hooks",
+    "version": "7.1.1",
+    "engines": {
+      "node": ">=18"
+    },
+    "peers": {
+      "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0 || ^10.0.0"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "@types/react",
+    "version": "19.3.0",
+    "engines": null,
+    "peers": {},
+    "deprecated": null
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "engines": null,
+    "peers": {
+      "@types/react": "^19.3.0"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "@types/node",
+    "version": "24.19.2",
+    "engines": null,
+    "peers": {},
+    "deprecated": null
+  },
+  {
+    "name": "vite",
+    "version": "8.3.4",
+    "engines": {
+      "node": "^20.19.0 || >=22.12.0"
+    },
+    "peers": {
+      "tsx": "^4.8.1",
+      "jiti": ">=1.21.0",
+      "less": "^4.0.0",
+      "sass": "^1.70.0",
+      "yaml": "^2.4.2",
+      "stylus": ">=0.54.8",
+      "terser": "^5.16.0",
+      "esbuild": "^0.27.0 || ^0.28.0",
+      "sugarss": "^5.0.0",
+      "@types/node": "^20.19.0 || >=22.12.0",
+      "sass-embedded": "^1.70.0",
+      "@vitejs/devtools": "^0.7.1"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "typescript",
+    "version": "6.0.3",
+    "engines": {
+      "node": ">=14.17"
+    },
+    "peers": null,
+    "deprecated": null
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.0",
+    "engines": null,
+    "peers": {
+      "react": "^19.3.0"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "autoprefixer",
+    "version": "10.6.1",
+    "engines": {
+      "node": "^10 || ^12 || >=14"
+    },
+    "peers": {
+      "postcss": "^8.1.0"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "@vitejs/plugin-react",
+    "version": "6.1.2",
+    "engines": {
+      "node": "^20.19.0 || >=22.12.0"
+    },
+    "peers": {
+      "vite": "^8.0.0",
+      "oxc-transform-react": "^0.152.0",
+      "@rolldown/plugin-babel": "^0.1.7 || ^0.2.0",
+      "babel-plugin-react-compiler": "^1.0.0"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "eslint-plugin-react-refresh",
+    "version": "0.5.7",
+    "engines": null,
+    "peers": {
+      "eslint": "^9 || ^10"
+    },
+    "deprecated": null
+  },
+  {
+    "name": "tailwindcss",
+    "version": "3.4.19",
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "peers": null,
+    "deprecated": null
+  },
+  {
+    "name": "typescript-eslint",
+    "version": "8.71.1",
+    "engines": {
+      "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+    },
+    "peers": {
+      "eslint": "^8.57.0 || ^9.0.0 || ^10.0.0",
+      "typescript": ">=4.8.4 <6.1.0"
+    },
+    "deprecated": null
+  }
+]
